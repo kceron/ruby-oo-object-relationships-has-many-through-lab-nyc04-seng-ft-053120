@@ -24,5 +24,4 @@ class Patient
     def doctors
         self.appointments.collect {|appointment_instance| appointment_instance.doctor}.uniq
     end
-
 end
